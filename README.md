@@ -11,9 +11,8 @@ $docker build -t <name_of_image> .
 We can run the so created image using the command:
 $docker run -d -P <name_of_image>
 
-We can then check the mapping of port from host to container by running the command:
-$docekr ps 
+We can then check the mapping of port from host to container by running the command(under PORTS):
+$docker ps 
 
-CONTAINER ID   IMAGE               COMMAND             CREATED             STATUS              PORTS             NAMES
-                                                                                         0.0.0.0:32770->5000/tcp
-                                                                                      
+
+                                                                                  
