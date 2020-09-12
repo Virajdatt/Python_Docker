@@ -27,4 +27,9 @@ jobs:
         run: |
           echo Building your docker image 
           docker build -t flask-image .
-          docker image ls
+      - name: Docker run container and test 
+        run: |
+          docker run -d -p 5000:5000 flask-image
+      - name: Testing the container
+        run: |
+          curl localhost:5000  
