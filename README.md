@@ -6,7 +6,7 @@ The implementation can be seen in the New.py script.
 
 
 We can create a docker image out of it using the command :
-$docker build -t <name_of_image> . 
+$docker build -t <name_of_image> . # . stands for the current directory
 
 We can run the so created image using the command:
 $docker run -d -P <name_of_image>
