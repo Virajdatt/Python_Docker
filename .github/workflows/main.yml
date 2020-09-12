@@ -30,6 +30,9 @@ jobs:
       - name: Docker run container and test 
         run: |
           docker run -d -p 5000:5000 flask-image
+      -name: Enable TCP on port 5000
+        run: ufw allow 5000/tcp
+      
       - name: Testing the container
         run: |
           curl localhost:5000  
