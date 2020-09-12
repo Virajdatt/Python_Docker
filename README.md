@@ -31,6 +31,7 @@ This repo now has  github actions setup, the github actions do the following.
 <li>Spin up a docker container using the image built in above step</li>
 <li>Test the container app with a curl get request on port 5000</li>
 <li>NOTE:- This wont be hosting the app</li>
+<li>NOTE:- The /.github/workflows/main.yml on line 19 enables one to skip the github actions if commit message has the string "ci skip"</li>
 </ol>
 
 # TO-DO
@@ -39,6 +40,7 @@ This repo now has  github actions setup, the github actions do the following.
 <li>Use a better backend for sentiment inference.</li>
 <li>Include actions to deploy to a hosting platform.</li>
 </ol>
-P.S:- The repo was built a couple of years ago when I was trying to learn flask, docker and used this
-repo for taking notes.
+</br>
+**P.S:- The repo was built a couple of years ago when I was trying to learn flask, docker and used this
+repo for taking notes.**
                                                                                   
