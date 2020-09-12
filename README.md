@@ -14,5 +14,7 @@ $docker run -d -P <name_of_image>
 We can then check the mapping of port from host to container by running the command(under PORTS):
 $docker ps 
 
+This has a github actions setup.
+
 
                                                                                   
