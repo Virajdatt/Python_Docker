@@ -39,6 +39,7 @@ This repo now has  github actions setup, the github actions do the following.
 <li>Use a better backend for sentiment inference.</li>
 <li>Include actions to deploy to a hosting platform.</li>
 </ol>
-P.S:- The repo was built a couple of years ago when I was trying to learn flask, docker and used this
-repo for taking notes.
+</br>
+**P.S:- The repo was built a couple of years ago when I was trying to learn flask, docker and used this
+repo for taking notes.**
                                                                                   
