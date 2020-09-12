@@ -15,11 +15,15 @@ We can then check the mapping of port from host to container by running the comm
 $docker ps 
 
 In browser run localhost:5000 to get the following:-
+
+## Front-End
 ![Front-End Image](/images/Front-End.png)
+
+## Infernce
 ![Infernce Image](/images/Infernce-textblob.png)
 
 
-This repo noe has  github actions setup, the github actions do the following.
+This repo now has  github actions setup, the github actions do the following.
 
 <ol>
 <li>Copy the repo over to a remote Ubuntu Server, which has docker pre-installed</li>
@@ -30,10 +34,11 @@ This repo noe has  github actions setup, the github actions do the following.
 </ol>
 
 # TO-DO
-Imporve the frontend using CSS, javascript and anyother javascript frameworks.
-Use a better backend to for sentiment inference.
-Include actions to deploy to a hosting platform.
-
+<ol>
+<li>Imporve the frontend using CSS, javascript and anyother javascript frameworks.</li>
+<li>Use a better backend for sentiment inference.</li>
+<li>Include actions to deploy to a hosting platform.</li>
+<ol>
 P.S:- The repo was built a couple of years ago when I was trying to learn flask, docker and used this
 repo for taking notes.
                                                                                   
