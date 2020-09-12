@@ -31,7 +31,8 @@ This repo now has  github actions setup, the github actions do the following.
 <li>Spin up a docker container using the image built in above step</li>
 <li>Test the container app with a curl get request on port 5000</li>
 <li>NOTE:- This wont be hosting the app</li>
-<li>NOTE:- The /.github/workflows/main.yml on line 19 enables one to skip the github actions if commit message has the string "ci skip"</li>
+
+<li>NOTE:- The line 19 under /.github/workflows/main.yml enables one to skip the github actions if commit message has the string "ci skip"</li>
 </ol>
 
 # TO-DO
