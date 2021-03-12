@@ -1,3 +1,4 @@
+## Pipeline status ![](https://github.com/Virajdatt/Python_Docker/actions/workflows/main.yml/badge.svg)
 Simple docker image for running a Flask App:-
 
 The flask server serves a static html, which asks for an input sentece. The input sentence is then posted to the flask server and it creates a TextBlob object, of the input sentence and returns the sentiment polarity based on the words in the input sentence. 
